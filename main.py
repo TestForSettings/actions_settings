@@ -12,7 +12,7 @@ import os
 # file = open("Token.txt", "r")
 # token = file.readline()
 
-file.close()
+# file.close()
 
 TOKEN = os.environ["API_TOKEN"]
 # First create a Github instance:
