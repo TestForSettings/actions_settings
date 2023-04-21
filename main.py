@@ -9,8 +9,8 @@ import os
 # GITHUB_API_URL = "https://api.github.com/"
 # ORG_NAME = "TestForSettings"
 
-file = open("Token.txt", "r")
-token = file.readline()
+# file = open("Token.txt", "r")
+# token = file.readline()
 
 file.close()
 
