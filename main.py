@@ -17,7 +17,7 @@ import os
 TOKEN = os.environ["API_TOKEN"]
 # First create a Github instance:
 # using an access token
-g = Github(token)
+g = Github(TOKEN)
 
 # Here I will save the names of the repos that have as a topic "testing"
 repo_names = []
