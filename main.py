@@ -14,7 +14,7 @@ import os
 
 # file.close()
 
-TOKEN = os.environ["API_TOKEN"]
+TOKEN = os.environ["ACCESS_TOKEN"]
 # First create a Github instance:
 # using an access token
 g = Github(TOKEN)
