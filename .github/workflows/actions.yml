@@ -23,5 +23,5 @@ jobs:
 
       - name: execute py script # run main.py
         env:
-          API_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python main.py
