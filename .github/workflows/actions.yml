@@ -1,6 +1,17 @@
 name: run main.py
 
 on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
   schedule:
     - cron: '12 08 * * 6' # At 10:00 AM on each Monday
 
